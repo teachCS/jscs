@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Basic Concepts": ["data-types",
+      "constructs"],
+    "Advanced Concepts": ["OOP in JS", "Functional JS"]
+
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
