@@ -24,9 +24,10 @@ const siteConfig = {
   title: 'Computer Science in JS', // Title for your website.
   tagline: '⚡️ OCR A-level Computer Science programming concepts explained in JavaScript',
   projectName: 'jscs',
-  organizationName: 'katia',
-  url: 'https://jscs.github.io', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  organizationName: 'teachCS',
+  
+  url: 'https://teachcs.github.io', // Your website URL
+  baseUrl: '/jscs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',

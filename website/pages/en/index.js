@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={
                         siteConfig.baseUrl +
-                        'docs/data-type.html'
+                        'docs/data-types.html'
                       }>Start</Button>
           </PromoSection>
         </div>
