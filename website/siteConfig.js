@@ -81,7 +81,7 @@ const siteConfig = {
 
   usePrism: true,
   highlight: {
-    theme: 'far',
+    theme: 'dracula',
   },
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
