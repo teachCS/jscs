@@ -24,9 +24,10 @@ const siteConfig = {
   title: 'Computer Science in JS', // Title for your website.
   tagline: '⚡️ OCR A-level Computer Science programming concepts explained in JavaScript',
   projectName: 'jscs',
-  organizationName: 'katia',
-  url: 'https://jscs.github.io', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  organizationName: 'teachCS',
+  
+  url: 'https://teachcs.github.io', // Your website URL
+  baseUrl: '/jscs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -80,7 +81,7 @@ const siteConfig = {
 
   usePrism: true,
   highlight: {
-    theme: 'far',
+    theme: 'dracula',
   },
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js'],
@@ -93,6 +94,13 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
+
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+    '/js/code-block-buttons.js',
+  ],
+  stylesheets: ['/css/code-block-buttons.css']
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
