@@ -7,7 +7,14 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Sequence
 
-A sequence is a programming construct where 
+A sequence is a programming construct where instrucitons are executed in order they are written. Each intsruction is only executed once.
+```js
+var number = 5;
+var result = number + 3;
+console.log("The result is ", result);
+```
+
+> We rcommend using [RELP](www.repl.it) to test code blocks.
 
 ## Selection
 
